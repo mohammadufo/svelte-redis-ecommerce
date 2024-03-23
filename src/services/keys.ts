@@ -4,3 +4,4 @@ export const sessionKey = (id: string) => `sessions#${id}`;
 export const itemKey = (id: string) => `items#${id}`;
 export const usernameUniqueKey = () => 'username:unique';
 export const userLikesKey = (id: string) => `user:likes#${id}`;
+export const usernameKey = () => 'username';
